@@ -1,30 +1,28 @@
 # App Basics
-This portfolio project uses React, Typescript and Vite. This project runs on node 20.9.0.
+This portfolio project uses React, Typescript and Vite. This project runs on node 20.9.0. It is advised you use `npx` to quickly install and switch between different node versions.
 
 # Getting Started
 
-`cd` into this project and run `npm i` or `npm install` to install node modules. Ensure you are running node 18.18.0
+`cd` into this project and run `npm i` or `npm install` to install node modules. Ensure you are running node 20.9.0
 
 To run the project locally, run `npm run dev`.
+
+# Styling
+
+Tailwind is used for CSS styles. Find additional info about Tailwind in the [Documentation](https://tailwindcss.com/docs/installation).
 
 # Testing
 
 For testing, playwright is installed
 
-# Formatting
+# Code Formatting
 
 Prettier is used for formatting code
 
+# Linting
 
+ESLint is used to catch coding problems, such as unused variables or shorter function syntax. 
 
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Expanding the ESLint configuration
 

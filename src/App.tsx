@@ -1,15 +1,10 @@
 import './App.css';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import './index.css';
 
 function App() {
   return (
     <>
-      <header>
-        <Nav />
-      </header>
-      <h1>Lindsay Hartfiel 2025</h1>
-      <Footer />
+      <h1>App</h1>
     </>
   );
 }

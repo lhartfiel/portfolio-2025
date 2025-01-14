@@ -32,7 +32,7 @@
     "src/**/*.tsx",
     "playwright-tests/**/*.ts",
     "tests/**/*.ts",
-    "tests/src/Footer.spec.tsx",
+    "tests/src/footer.spec.tsx",
     "tests/home.spec.tsx"
   ]
 }

@@ -16,6 +16,7 @@
     "@react-router/node": "^7.1.1",
     "dotenv": "^16.4.7",
     "graphql": "^16.10.0",
+    "html-react-parser": "^5.2.2",
     "isbot": "^5",
     "js-cookie": "^3.0.5",
     "react": "^18.3.1",

@@ -12,4 +12,28 @@ const ABOUT_QUERY = gql`
   }
 `
 
-export { ABOUT_QUERY }
+const BLOGPOSTS_QUERY = gql`
+  query GetAllBlogPosts {
+    allBlogs {
+      createdAt
+      title
+      image
+      slug
+    }
+  }
+`
+
+const BLOGPOST_QUERY = gql`
+  query GetBlogPost($slug: String) {
+    blogBySlug(slug: $slug) {
+      createdAt
+      content
+      title
+      subtitle
+      image
+      slug
+    }
+  }
+`
+
+export { ABOUT_QUERY, BLOGPOSTS_QUERY, BLOGPOST_QUERY }

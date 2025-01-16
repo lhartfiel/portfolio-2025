@@ -1,5 +1,7 @@
-const Blog = () => {
-  return <h1>Blog Page</h1>;
-};
+import { Outlet } from 'react-router'
 
-export default Blog;
+const Blog = () => {
+  return <Outlet />
+}
+
+export default Blog

@@ -1,9 +1,9 @@
 import { useQuery } from '@apollo/client/index.js'
 import { ABOUT_QUERY } from '../queries'
-import { ReactNode } from 'react'
+import parse from 'html-react-parser'
 
 type Interest = {
-  description: ReactNode
+  description: string
   heading: string
   icon: string
   name: string
@@ -24,7 +24,7 @@ const About = () => {
         return (
           <div key={interest.name}>
             <h1>{interest.name}</h1>
-            {interest?.description}
+            {parse(interest?.description)}
           </div>
         )
       })}

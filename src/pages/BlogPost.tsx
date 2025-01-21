@@ -2,7 +2,7 @@
 import { useParams } from 'react-router'
 import { useQuery } from '@apollo/client/index.js'
 import { BLOGPOST_QUERY } from '../queries'
-// import parse from 'html-react-parser'
+import parse from 'html-react-parser'
 
 const BlogPost = () => {
   const { slug } = useParams()
@@ -21,7 +21,7 @@ const BlogPost = () => {
         <>
           {blogPost?.title && <h1>{blogPost.title}</h1>}
           {blogPost?.createdAt && <h1>{blogPost.createdAt}</h1>}
-          {/* {blogPost?.content && parse(blogPost.content)} */}
+          {blogPost?.content && parse(blogPost.content)}
         </>
       )}
     </>
